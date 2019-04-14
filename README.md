@@ -7,7 +7,7 @@ image.
 
 The resulting image can either be used directly (which likely
 makes little sense) or the resulting `tmux` binary simply copied
-out using `docker cp container:/usr/bin/tmux ./tmux`.
+out using `docker cp container:/usr/local/bin/tmux ./tmux`.
 
 _NOTE_: Even though the `tmux` binary is statically-linked, it
 still depends on e.g. locales to be properly configured wherever
